@@ -1,0 +1,48 @@
+:root {
+    font-family: Arial, sans-serif;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.searchType {
+    font-size: 18px;
+}
+
+.searchBar {
+    width: 50%;
+    height: 40px;
+    font-size: 18px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+}
+
+.searchButton {
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.searchResultContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.searchResult {
+    padding: 0 15px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
