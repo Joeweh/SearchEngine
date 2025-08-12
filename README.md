@@ -42,6 +42,8 @@ python server.py
 
 Run React Project
 ```bash
+cd ./frontend
+
 npm install
 npm run dev
 ```
