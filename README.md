@@ -45,3 +45,9 @@ Run React Project
 npm install
 npm run dev
 ```
+
+### Notes
+I handled the case of an empty detailed description
+for a patent by displaying "No description" instead
+of empty content. You can test this by searching for
+"reinforced fabric" by title
