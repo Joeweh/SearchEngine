@@ -29,7 +29,7 @@ function App() {
 
     return (
         <>
-            <h2 style={{ textAlign: 'center' }}>Patent Database</h2>
+            <h2 className="centeredHeading">Patent Database</h2>
             <form id="searchForm" method="GET" action="http://localhost:5000/search" onSubmit={handleSubmit}>
                 <select className="searchType" name="searchType">
                     <option value="title">Title</option>
@@ -44,7 +44,7 @@ function App() {
             <div className="searchResultContainer">
                 {searchResults !== null && (
                     searchResults.length === 0
-                        ? <h2 style={{ textAlign: 'center' }}>No results found</h2>
+                        ? <h2 className="centeredHeading">No results found</h2>
                         : searchResults.map(result => (
                             <SearchResult key={result.doc_number} patent={result} />
                         ))
